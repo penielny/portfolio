@@ -43,7 +43,7 @@ export default function Projects() {
                         <div className=" flex flex-row space-x-5 overflow-x-auto pb-5">
                             {
                                 project.shoots.map((shoot, index) => (
-                                    <div onClick={() => setSlectedProject({project,index})} key={`shoot-${index}`} className="max-w-80 h-48 bg-[#023047] rounded-md p-1 shrink-0 cursor-pointer shadow-md">
+                                    <div onClick={() => setSlectedProject({project,index})} key={`shoot-${index}`} className="md:max-w-80 h-48 bg-[#023047] rounded-md p-1 shrink-0 cursor-pointer shadow-md">
                                         <img className="h-full w-fit rounded-sm overflow-hidden" src={shoot} />
                                     </div>
                                 ))
