@@ -44,7 +44,7 @@ export default function Projects() {
                             {
                                 project.shoots.map((shoot, index) => (
                                     <div onClick={() => setSlectedProject({project,index})} key={`shoot-${index}`} className="md:max-w-80 h-48 bg-[#023047] rounded-md p-1 shrink-0 cursor-pointer shadow-md">
-                                        <img className="h-full w-fit rounded-sm overflow-hidden" src={shoot} />
+                                        <img className="h-full object-contain   rounded-sm overflow-hidden" src={shoot} />
                                     </div>
                                 ))
                             }

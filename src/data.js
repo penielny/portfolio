@@ -38,7 +38,7 @@ export const TESTIMONIALS = [
         avatar: "",
         project: "GEOBEL SIIVOUTO",
         title: "Excellent Work",
-        description: "My partner and I needed a fast website for our cleaning company, and he was able to deliver one in just a couple of days.",
+        description: "My partner and I needed a fast website for our cleaning company, His speed and timing are impeccable.",
     },
     {
         name: "Kenneth Badiako",
@@ -50,7 +50,7 @@ export const TESTIMONIALS = [
     {
         name: "Nathaniel Boafo",
         avatar: "",
-        project: "D3v Lab",
+        project: "D3V.LABs",
         title: "Very Experienced",
         description: "I needed help moving my project to production for a client, and he swiftly assisted while also helping with debugging along the way.",
     },
@@ -71,7 +71,7 @@ export const PROJECTS = [
     {
         title: "GEOBEL SIIVOUTO",
         link:"https://geobel.onrender.com",
-        description: "This is a static web design template designed for a client, to help extend her service reach. - Solo Dev",
+        description: "Geobel Siivouto is a static web design template designed for a client, to help extend her service reach. - Solo Dev",
         logo: "https://suldexchange.com/assets/logo-V-5T5V7r.png",
         type: "Static",
         stacks:["React Js","Tailwind Css"],
